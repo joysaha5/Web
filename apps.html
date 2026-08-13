@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Apps — PixelCraftin Studio</title>
+<meta name="description" content="N Dial, N Files, N Calc, Elements Widgets and Noting Notes — apps built by PixelCraftin Studio. No ads, no tracking.">
+<link rel="icon" href="data:,">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<canvas id="starfield"></canvas>
+
+<header class="site-header">
+  <div class="capsule">
+    <a href="index.html" class="brand">PixelCraftin <span>studio</span></a>
+    <nav class="nav-links" data-nav>
+      <a href="apps.html">Apps</a>
+      <a href="team.html">Team</a>
+      <a href="store.html">Store</a>
+      <a href="timeline.html">Timeline</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <div class="header-actions">
+      <button class="theme-toggle" data-theme-toggle aria-label="Toggle color theme">
+        <svg class="moon-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M21 12.8A9 9 0 1 1 11.2 3 7 7 0 0 0 21 12.8Z"/></svg>
+        <svg class="sun-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="4.2"/><path d="M12 2.5v2.4M12 19.1v2.4M4.2 4.2l1.7 1.7M18.1 18.1l1.7 1.7M2.5 12h2.4M19.1 12h2.4M4.2 19.8l1.7-1.7M18.1 5.9l1.7-1.7"/></svg>
+      </button>
+      <button class="menu-btn" data-menu-toggle aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+<nav class="mobile-panel" data-mobile-panel data-nav>
+  <a href="apps.html">Apps</a>
+  <a href="team.html">Team</a>
+  <a href="store.html">Store</a>
+  <a href="timeline.html">Timeline</a>
+  <a href="contact.html">Contact</a>
+</nav>
+
+<main class="page">
+
+  <section class="hero" style="min-height:auto; padding-top:200px; padding-bottom:60px;">
+    <div class="wrap">
+      <h1 style="font-size:clamp(2.6rem,6.5vw,5rem);">Our Digital <em>Creations</em></h1>
+      <p class="sub">We build apps people actually enjoy using. Free from ads, tracking, and clutter.</p>
+    </div>
+  </section>
+
+  <!-- Elements Widgets -->
+  <section class="wrap">
+    <div class="app-detail" id="elements">
+      <div class="phone-stage">
+        <div class="phone back">
+          <div class="phone-screen">
+            <div class="ph-title">July 2025</div>
+            <div class="phone-bar"><i style="width:60%"></i></div>
+            <div class="phone-row"><div class="phone-avatar"></div> Morning brief · 9am</div>
+            <div class="phone-row"><div class="phone-avatar"></div> Meeting · 12:30pm</div>
+            <div class="phone-row"><div class="phone-avatar"></div> Dinner · 8:30pm</div>
+          </div>
+        </div>
+        <div class="phone front">
+          <div class="phone-screen">
+            <div class="ph-title">My Favorites</div>
+            <div class="phone-grid">
+              <div></div><div></div><div></div>
+              <div></div><div></div><div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="app-copy">
+        <h3>Elements Widgets</h3>
+        <p class="tagline">Productivity meets elegance</p>
+        <ul class="feature-list">
+          <li>Best functional widgets, period</li>
+          <li>N Dial, Calendar, Notes and more</li>
+          <li>Hand-tuned for every screen size</li>
+          <li>Matches light &amp; dark system themes</li>
+        </ul>
+        <a class="btn btn-primary" href="https://play.google.com" target="_blank" rel="noopener">Get it on Play
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+        </a>
+      </div>
+    </div>
+
+    <!-- N Dial -->
+    <div class="app-detail reverse" id="n-dial">
+      <div class="phone-stage">
+        <div class="phone back">
+          <div class="phone-screen">
+            <div class="ph-title">Book</div>
+            <div class="phone-row"><div class="phone-avatar"></div> Adrian Cole</div>
+            <div class="phone-row"><div class="phone-avatar"></div> Amelia Hart</div>
+            <div class="phone-row"><div class="phone-avatar"></div> Axel Monroe</div>
+            <div class="phone-row"><div class="phone-avatar"></div> Benjamin Cross</div>
+            <div class="phone-row"><div class="phone-avatar"></div> Bella Quinn</div>
+          </div>
+        </div>
+        <div class="phone front">
+          <div class="phone-screen">
+            <div class="ph-title">Ali Fakhruddin</div>
+            <div class="phone-row">Phone · +971 12 123 4567</div>
+            <div class="phone-row">Work · +971 12 123 4587</div>
+            <div class="phone-row">Email · ali.f@gmail.com</div>
+            <div class="phone-row">Birthday · 31/05</div>
+            <div class="phone-row">Dubai, UAE</div>
+          </div>
+        </div>
+      </div>
+      <div class="app-copy">
+        <h3>N Dial</h3>
+        <p class="tagline">World's first dialer with quick notes</p>
+        <ul class="feature-list">
+          <li>Inspired by Nothing OS</li>
+          <li>Minimalistic design</li>
+          <li>Conference calls</li>
+          <li>Dark &amp; light modes</li>
+          <li>Sync with Google Contacts</li>
+          <li>Privacy focused</li>
+        </ul>
+        <a class="btn btn-primary" href="https://play.google.com" target="_blank" rel="noopener">Get it on Play
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+        </a>
+      </div>
+    </div>
+
+    <!-- N Files -->
+    <div class="app-detail" id="n-files">
+      <div class="phone-stage">
+        <div class="phone back">
+          <div class="phone-screen">
+            <div class="ph-title">Hi, Ali.</div>
+            <div style="font-size:.9rem; margin-bottom:10px;">119.64 GB of 512.00 GB</div>
+            <div class="phone-bar"><i style="width:23%"></i></div>
+            <div class="phone-row">📁 Download</div>
+            <div class="phone-row">📁 DCIM</div>
+            <div class="phone-row">📁 Music</div>
+            <div class="phone-row">📁 Documents</div>
+          </div>
+        </div>
+        <div class="phone front">
+          <div class="phone-screen">
+            <div class="ph-title">Pictures</div>
+            <div class="phone-grid">
+              <div></div><div></div><div></div>
+              <div></div><div></div><div></div>
+              <div></div><div></div><div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="app-copy">
+        <h3>N Files</h3>
+        <p class="tagline">A file manager designed for speed, simplicity and complete control</p>
+        <ul class="feature-list">
+          <li>Browse and manage every file</li>
+          <li>Fast search across your storage</li>
+          <li>Clean, distraction-free interface</li>
+          <li>Storage usage at a glance</li>
+          <li>No ads, no tracking</li>
+        </ul>
+        <a class="btn btn-primary" href="https://play.google.com" target="_blank" rel="noopener">Get it on Play
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+        </a>
+      </div>
+    </div>
+
+    <!-- N Calc -->
+    <div class="app-detail reverse" id="n-calc">
+      <div class="phone-stage">
+        <div class="phone front" style="transform:translate(0,0) rotate(0deg);">
+          <div class="phone-screen">
+            <div class="ph-title">N Calc</div>
+            <div style="text-align:right; font-size:2.2rem; font-family:var(--font-display); margin:20px 0;">248.5</div>
+            <div class="phone-grid" style="grid-template-columns:repeat(4,1fr);">
+              <div></div><div></div><div></div><div style="background:var(--accent);"></div>
+              <div></div><div></div><div></div><div style="background:var(--accent);"></div>
+              <div></div><div></div><div></div><div style="background:var(--accent);"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="app-copy">
+        <h3>N Calc</h3>
+        <p class="tagline">A fun, minimal calculator</p>
+        <ul class="feature-list">
+          <li>Clean, minimal keypad</li>
+          <li>Smooth calculation history</li>
+          <li>Dark &amp; light modes</li>
+          <li>No ads, no tracking</li>
+        </ul>
+        <a class="btn btn-primary" href="https://play.google.com" target="_blank" rel="noopener">Get it on Play
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+        </a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <h3>PIXELCRAFTIN STUDIO</h3>
+        <p>Building the future with brilliant apps.</p>
+      </div>
+      <div class="footer-cols">
+        <div class="footer-col">
+          <span class="h">Apps</span>
+          <a href="apps.html#elements">Elements</a>
+          <a href="apps.html#n-dial">N Dial</a>
+          <a href="apps.html#noting-notes">Noting Notes</a>
+        </div>
+        <div class="footer-col">
+          <span class="h">Studio</span>
+          <a href="team.html">Team</a>
+          <a href="store.html">Store</a>
+          <a href="timeline.html">Timeline</a>
+          <a href="contact.html">Contact</a>
+        </div>
+        <div class="footer-col">
+          <span class="h">Follow</span>
+          <div class="footer-social">
+            <a href="https://twitter.com/AliFakhruddin13" target="_blank" rel="noopener" aria-label="X / Twitter"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M3 3h3.6l5 6.6L17 3h3l-6.7 8.4L21 21h-3.6l-5.4-7.1L6.6 21H3.5l7.2-9.1L3 3Z"/></svg></a>
+            <a href="#" aria-label="Discord"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M8.5 15.5c1.2.9 2.4 1.4 3.5 1.4s2.3-.5 3.5-1.4M15 9.6c1 .1 2 .5 3 1.2.6 2 1 4.4.9 6.7-1.2.9-2.4 1.4-3.6 1.6l-.6-1.1M9 9.6c-1 .1-2 .5-3 1.2-.6 2-1 4.4-.9 6.7 1.2.9 2.4 1.4 3.6 1.6l.6-1.1M9 12.6c0 .6.5 1.1 1 1.1s1-.5 1-1.1-.5-1.1-1-1.1-1 .5-1 1.1Zm5 0c0 .6.4 1.1 1 1.1.5 0 1-.5 1-1.1s-.5-1.1-1-1.1c-.6 0-1 .5-1 1.1Z"/></svg></a>
+            <a href="mailto:pixelcraftinstudio@gmail.com" aria-label="Email"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div>
+        <div>PIXELCRAFTIN SOFTWARE HOUSE</div>
+        <div class="footer-legal">Trade License No. 1580145 — Government of Dubai, Department of Economy &amp; Tourism</div>
+      </div>
+      <div>© 2026 PixelCraftin Studio. Built with care.</div>
+    </div>
+  </div>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
