@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your App Name - Official Site</title>
+    <style>
+        :root {
+            --primary-color: #01875f; /* Google Play green */
+            --bg-color: #f8f9fa;
+            --text-color: #202124;
+            --card-bg: #ffffff;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            color: var(--text-color);
+            background-color: var(--bg-color);
+            margin: 0;
+            padding: 0;
+        }
+
+        nav {
+            background-color: var(--card-bg);
+            padding: 1rem 2rem;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        nav .brand {
+            font-size: 1.25rem;
+            font-weight: bold;
+            color: var(--primary-color);
+        }
+
+        nav a {
+            color: var(--text-color);
+            text-decoration: none;
+            margin-left: 1.5rem;
+            font-weight: 500;
+        }
+
+        nav a:hover {
+            color: var(--primary-color);
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 2rem auto;
+            padding: 0 1.5rem;
+        }
+
+        .hero {
+            background-color: var(--card-bg);
+            padding: 3rem 2rem;
+            border-radius: 8px;
+            text-align: center;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+            margin-bottom: 2rem;
+        }
+
+        .hero h1 {
+            margin-top: 0;
+            font-size: 2.5rem;
+        }
+
+        .hero p {
+            font-size: 1.1rem;
+            color: #5f6368;
+            max-width: 600px;
+            margin: 0 auto 1.5rem;
+        }
+
+        .section {
+            background-color: var(--card-bg);
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+            margin-bottom: 2rem;
+        }
+
+        .section h2 {
+            border-bottom: 2px solid var(--bg-color);
+            padding-bottom: 0.5rem;
+            margin-top: 0;
+            color: var(--primary-color);
+        }
+
+        footer {
+            text-align: center;
+            padding: 2rem;
+            color: #70757a;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header Navigation -->
+    <nav>
+        <div class="brand">Your Organization Name</div>
+        <div>
+            <a href="#about">About</a>
+            <a href="#privacy">Privacy Policy</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </nav>
+
+    <div class="container">
+        <!-- Hero Section (App Info) -->
+        <section id="about" class="hero">
+            <h1>Your App Name</h1>
+            <p>A brief, clear description of what your app does. Explain its core utility, feature set, or target audience here so users and Google reviewers understand its purpose.</p>
+        </section>
+
+        <!-- Privacy Policy Section -->
+        <section id="privacy" class="section">
+            <h2>Privacy Policy</h2>
+            <p><em>Last updated: August 2026</em></p>
+            
+            <p><strong>[Your Organization Name]</strong> operates the <strong>[Your App Name]</strong> mobile application. This page informs you of our policies regarding the collection, use, and disclosure of personal information when you use our application.</p>
+
+            <h3>Information Collection and Use</h3>
+            <p>We do not collect or share personally identifiable information unless specifically requested to provide core app services (e.g., account creation, support requests). Any data collected is stored securely and strictly used for improving the app user experience.</p>
+
+            <h3>Log Data & Analytics</h3>
+            <p>In the event of an error or crash in the app, standard diagnostic data (such as device model, OS version, and performance logs) may be processed to resolve issues and enhance stability.</p>
+
+            <h3>Third-Party Services</h3>
+            <p>Our app may utilize third-party services that collect information used to identify you (e.g., Google Play Services, Firebase Analytics). Please refer to their respective privacy policies for details.</p>
+
+            <h3>Security</h3>
+            <p>We value your trust in providing us your information and strive to use commercially acceptable means of protecting it. However, no method of transmission over the internet or electronic storage is 100% secure.</p>
+
+            <h3>Changes to This Policy</h3>
+            <p>We may update our Privacy Policy from time to time. You are advised to review this page periodically for any changes.</p>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section">
+            <h2>Contact Us</h2>
+            <p>If you have any questions, feedback, or support inquiries regarding <strong>Your App Name</strong>, please reach out to us:</p>
+            <ul>
+                <li><strong>Organization:</strong> Your Organization Name</li>
+                <li><strong>Support Email:</strong> <a href="mailto:support@yourdomain.com">support@yourdomain.com</a></li>
+                <li><strong>Official Address:</strong> Your Business Address, India</li>
+            </ul>
+        </section>
+    </div>
+
+    <footer>
+        &copy; 2026 Your Organization Name. All rights reserved.
+    </footer>
+
+</body>
+</html>
